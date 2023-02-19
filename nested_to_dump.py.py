@@ -2,11 +2,9 @@ import os
 import shutil
 
 #add source folder with all the folders (nested)
-source_folder_input=input("enter source folder :") + "\\"
-source_folder=source_folder_input
+source_folder=input("enter source folder :") + "\\"
 #add destination folder
-destination_folder_input=input("enter destination folder :") + "\\"
-destination_folder=destination_folder_input
+destination_folder=input("enter destination folder :") + "\\"
 
 
 for file_name1 in os.listdir(source_folder):
